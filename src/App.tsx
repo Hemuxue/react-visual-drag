@@ -3,6 +3,7 @@ function App() {
   const [a, setA] = useState<number>()
   useEffect(() => {
     console.log(a)
+    console.log(2)
   }, [])
   return <div className="App">123</div>
 }
